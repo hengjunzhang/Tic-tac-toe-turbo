@@ -1,41 +1,26 @@
-from logic import check_winner
-def get_empty_board():
-    return [
-        [None, None, None],
-        [None, None, None],
-        [None, None, None],
-    ]
+# This file contains the Command Line Interface (CLI) for
+# the Tic-Tac-Toe game. This is where input and output happens.
+# For core game logic, see logic.py.
 
-def print_board(board):
-    for row in board:
-        print(row)
+from logic import make_empty_board, get_winner, other_player
 
-def get_player_input(current_player):
-    prompt = f"player{current_player} > "
-    player_input = input(prompt)
-    row_col_list = player_input.split(',')
-    row, col = [int(x) for x in row_col_list]
-    return row,col
 
-def switch_player(current_player):
-    if current_player == 'X':
-        return 'O'
-    return 'X'
+# Reminder to check all the tests
 
 if __name__ == '__main__':
-    current_player = 'X'
-    board = get_empty_board()
+    board = make_empty_board()
+    player = "X"
     winner = None
-    while winner is None:
-        print_board(board)
-        try:
-            row, col = get_player_input(current_player)
-        except ValueError:
-            print("Invalid Input, try again")
-            continue
-
-        board[row][col] = current_player
-        winner = check_winner(board)
-        current_player = switch_player(current_player)
-print_board(board)
-print(f"Winner is {current_player}")
+    while winner == None:
+        print("TODO: take a turn!")
+        # TODO: Show the board to the user.
+        print (board)
+        # TODO: Input a move from the player.
+        x, y = input("Enter the postition(x,y), split with ',':").split(",")
+        # TODO: Update the board.
+        board[int(x)][int(y)] = player
+        winner = get_winner(board)
+        # TODO: Update who's turn it is.
+        if not winner:
+            player = other_player(player)
+        print(winner)
