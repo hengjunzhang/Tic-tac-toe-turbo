@@ -1,0 +1,96 @@
+/home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/test.py
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/test.py
+O
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/test.py
+O
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/test.py
+None
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > 0,0
+['X', None, None]
+[None, None, None]
+[None, None, None]
+playerO > 1,0
+['X', None, None]
+['O', None, None]
+[None, None, None]
+playerX > 0,1
+['X', 'X', None]
+['O', None, None]
+[None, None, None]
+playerO > 1,1
+['X', 'X', None]
+['O', 'O', None]
+[None, None, None]
+playerX > 0,2
+['X', 'X', 'X']
+['O', 'O', None]
+[None, None, None]
+Winner is X
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > 0,0
+['X', None, None]
+[None, None, None]
+[None, None, None]
+playerO > 1,1
+['X', None, None]
+[None, 'O', None]
+[None, None, None]
+playerX > 1,1
+['X', None, None]
+[None, 'X', None]
+[None, None, None]
+playerO > /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/cli.py
+Invalid Input, try again
+['X', None, None]
+[None, 'X', None]
+[None, None, None]
+playerO > /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/cli.py
+Invalid Input, try again
+['X', None, None]
+[None, 'X', None]
+[None, None, None]
+playerO > exit()
+Invalid Input, try again
+['X', None, None]
+[None, 'X', None]
+[None, None, None]
+playerO > 1,1
+['X', None, None]
+[None, 'O', None]
+[None, None, None]
+playerX > 1,2
+['X', None, None]
+[None, 'O', 'X']
+[None, None, None]
+playerO > 0,1
+['X', 'O', None]
+[None, 'O', 'X']
+[None, None, None]
+playerX > 2,2
+['X', 'O', None]
+[None, 'O', 'X']
+[None, None, 'X']
+playerO > 0,2
+['X', 'O', 'O']
+[None, 'O', 'X']
+[None, None, 'X']
+playerX > 0,2
+['X', 'O', 'X']
+[None, 'O', 'X']
+[None, None, 'X']
+Winner is X
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/test.py
+None
+X
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $ /home/codespace/.python/current/bin/python3 /workspaces/Tic-tac-toe-turbo/test.py
+None
+X
+O
+@hengjunzhang ➜ /workspaces/Tic-tac-toe-turbo (main) $
